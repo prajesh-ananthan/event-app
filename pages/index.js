@@ -7,6 +7,7 @@ function Home() {
 
   return (
     <div>
+      {/*Render EventList component*/}
       <EventList items={featuredEvents}/>
     </div>
   )

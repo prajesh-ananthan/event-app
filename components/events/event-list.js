@@ -2,8 +2,9 @@ import EventItem from './event-item';
 import classes from "./event-list.module.css";
 
 function EventList(props) {
-  const { items } = props;
+  const {items} = props;
 
+  /* Iterate over a list of events retrieved from dummy-data.js */
   return <ul className={classes.list}>
     {items.map(event => <EventItem
       key={event.id}
